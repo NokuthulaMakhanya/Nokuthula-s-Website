@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav>
+        <a href="#" class="logo"><span>Nokuthula</span></a>
+        <ul class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#contact">Contact</a>
+            <a href="#resume">Resume</a>
+        </ul>
+        <i class="bx bx-menu-alt-right" id="menu"></i>
+
+        <!--<a href="#contact" class="btn">Contact Me</a>-->
+    </nav>
+
+    <section id="home">
+        <img src="HomeImg.png" alt="">
+
+        <div class="info-box">
+            <h1><span>Welcome, I am Nokuthula Makhanya</span></h1>
+            <p>Bachelor of ICT graduate currently pursuing an Honors degree.
+                <br>Passionate about web development, refined my skills in front-end technologies like HTML, CSS, and JavaScript through various projects. 
+                <br>Goal is to create dynamic, user-friendly web experiences that delight users and meet business needs.</p>
+        </div>
+        <!--<div class="btn-box">
+            <div class="btn">Hire</div>
+            <div class="btn">Contact Me</div>
+        </div>-->
+    </section>
+
+    <section id="about">
+        <div class="about-box">
+            <div class="about-info">
+                <h1><span>About Me</span></h1>
+                <p>My name is Nokuthula Makhanya, a bachelor of ICT graduate from the Durban University of Technology with high motivation, solid academics.
+                    <br> Posses programming skills in Python, Java,HTML and CSS. Have a strong passion for software development. Collaborate well with others on team projects and
+                    <br>always eager to deliver high quality results on time. I am not solely dedicated to my university studies, concurrently, I engage in supplementary learning
+                    <br>activities,acquiring certifications. Proficient in multitasking, I excel in handling responsibilities under pressure.
+                </p>
+            </div>
+
+            <h2><span>Skills</span></h2>
+            <div class="skills">
+                <ul>
+                    <li>
+                        <span><i class="bx bx-chevron-right"></i>Version Control: Github</span>
+                    </li>
+                    <li>
+                        <span><i class="bx bx-chevron-right"></i>API Development</span>
+                    </li>
+                    <li>
+                        <span><i class="bx bx-chevron-right"></i>HTML, CSS, JavaScript</span>
+                    </li>
+                    <li>
+                        <span><i class="bx bx-chevron-right"></i>Microsoft Power Platforms: Power Apps, Power Automate, Power BI</span>
+                    </li>
+                    <li>
+                        <span><i class="bx bx-chevron-right"></i>Cloud Services:Azure(API Deployment)</span>
+                    </li>
+                    <li>
+                        <span><i class="bx bx-chevron-right"></i>Problem solving</span>
+                    </li>
+                    <li>
+                        <span><i class="bx bx-chevron-right"></i>Time Management</span>
+                    </li>               
+                </ul>
+            </div>
+        </div>
+
+        <img src="HomeImg.png" alt="">
+    </section>
+
+    <section id="certificates">
+        <h1 class="header"><span>Certificates</span></h1>
+
+        <div class="certificates-container">
+            <div class="box">
+                <h1><span>Power Platforms App Maker</span></h1>
+                <p>Certified in Microsoft Power Platform App Maker, showcasing expertise in designing and developing apps using Power Apps, automating processes with Power Automate, and analyzing data. Obtained in November, 2022.</p>
+                <img src="pl 100.png" alt="">
+            </div>
+
+            <div class="box">
+                <h1><span>Power Platforms Fundamentals</span></h1>
+                <p>Certified in Microsoft Power Platform Fundamentals, demonstrating knowledge in building simple apps, automating workflows, and analyzing data with Power BI, Power Automate, and Power Apps. Obtained in October, 2024.</p>
+                <img src="pl900.png" alt="">
+            </div>
+
+            <div class="box">
+                <h1><span>Azure Fundamentals</span></h1>
+                <p>Certified in Microsoft Azure Fundamentals, demonstrating a strong understanding of cloud services, Azure architecture, and core solutions for security, compliance, and cost management. Obtained in December, 2023.</p>
+                <img src="Azure.png" alt="">
+            </div>
+            <div class="box">
+                <h1><span>CompTIA A+</span></h1>
+                <p>Certified in CompTIA A+, demonstrating proficiency in hardware, networking, troubleshooting, operating systems, and IT support. Obtained in November, 2023.</p>
+                <img src="A+.png" alt="">
+            </div>
+            <div class="box">
+                <h1><span>CompTIA N+</span></h1>
+                <p>Certified in CompTIA Network+, showcasing expertise in networking concepts, infrastructure, network security, and troubleshooting network issues. Obtained in November, 2023.</p>
+                <img src="N+.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="header"><span>Contact</span></h1>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="98efa8ae-8463-4468-bc93-202a1b193b65">
+            <div class="input-box">
+                <input type="text" name="full_name" placeholder="Enter Your Full Name" required>
+            </div>
+
+            <div class="input-box">
+                <span>Email</span>
+                <input type="text" name="email" placeholder="Enter Your Email" required>
+            </div>
+
+            <div class="input-box">
+                <span>Message</span>
+                <input type="text" name="message" placeholder="Enter Your Message" required>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+
+            <!--<div class="btn">Submit</div>-->
+        </form>
+    </section>
+
+    <section id="resume">
+        <h1 class="header"><span>Resume</span></h1>
+
+        <div class="resume-container">
+            <div class="box">
+                <iframe id="myResume" src="Nokuthula's CV (13).pdf" frameborder="0"></iframe>
+            </div>
+
+    </section>
+
+
+    <footer>
+        <div class="col-left"> 
+            <div class="col-box">
+                <span><i class='bx bxs-plus'></i></span>
+                <span>31 Botanic Avenue, Durban 4001</span>
+            </div>
+
+            <div class="col-box">
+                <span><i class='bx bxs-phone'></i></span>
+                <span>0767765271</span>
+            </div>
+
+            <div class="col-box">
+                <span><i class='bx bxs-envelope'></i></span>
+                <span>thulimakhanya15@gmail.com</span>
+            </div>
+        </div>
+        <div class="col-right">
+            <span>Networks</span>
+            <p>Explore my professional profiles and contributions across various platforms, including LinkedIn and GitHub</p>
+
+            <div class="social-icons">
+                <span>
+                    <a href="https://www.linkedin.com/in/nokuthula-makhanya-1317ab27a" target="_blank">
+                        <i class="bx bxl-linkedin-square"></i>
+                    </a>
+                </span>
+                <span>
+                    <a href="https://github.com/NokuthulaMakhanya/" target="_blank">
+                        <i class="bx bxl-github"></i>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
